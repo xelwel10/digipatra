@@ -1,0 +1,1 @@
+/home/xelwel/Documents/badapatra/build/app/intermediates/cxx/RelWithDebInfo/17177342/obj/x86_64

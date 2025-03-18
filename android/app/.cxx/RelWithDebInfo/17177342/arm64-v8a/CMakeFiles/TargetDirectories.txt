@@ -1,0 +1,2 @@
+/home/xelwel/Documents/badapatra/android/app/.cxx/RelWithDebInfo/17177342/arm64-v8a/CMakeFiles/edit_cache.dir
+/home/xelwel/Documents/badapatra/android/app/.cxx/RelWithDebInfo/17177342/arm64-v8a/CMakeFiles/rebuild_cache.dir

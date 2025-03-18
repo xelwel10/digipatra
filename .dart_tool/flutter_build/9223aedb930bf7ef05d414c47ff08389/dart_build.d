@@ -1,0 +1,1 @@
+ /home/xelwel/Documents/badapatra/.dart_tool/flutter_build/9223aedb930bf7ef05d414c47ff08389/dart_build_result.json: 

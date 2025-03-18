@@ -1,0 +1,405 @@
+# compiler: R8
+# compiler_version: 8.1.56
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: d399324
+# pg_map_hash: SHA-256 d3993245d9a24fd169ac2f9ae52151d747764523ecd0a1c4b55245dda329e96b
+com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin -> com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin:
+    1:1:void onAttachedToEngine(android.content.Context,io.flutter.plugin.common.BinaryMessenger,android.app.Activity,io.flutter.plugin.platform.PlatformViewRegistry,io.flutter.embedding.android.FlutterView):0:0 -> onAttachedToEngine
+    2:2:void onAttachedToEngine(io.flutter.embedding.engine.plugins.FlutterPlugin$FlutterPluginBinding):0:0 -> onAttachedToEngine
+com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$1 -> com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$1:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$2 -> com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$2:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$3 -> com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$3:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$4 -> com.pichillilorenzo.flutter_inappwebview_android.MyCookieManager$4:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.MyWebStorage$1 -> com.pichillilorenzo.flutter_inappwebview_android.MyWebStorage$1:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.util.Map):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.MyWebStorage$2 -> com.pichillilorenzo.flutter_inappwebview_android.MyWebStorage$2:
+    1:1:void onReceiveValue(java.lang.Long):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.MyWebStorage$3 -> com.pichillilorenzo.flutter_inappwebview_android.MyWebStorage$3:
+    1:1:void onReceiveValue(java.lang.Long):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsSettings -> com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsSettings:
+    1:1:java.util.Map getRealSettings(com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.CustomTabActivityHelper -> com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.CustomTabActivityHelper:
+    1:1:void openCustomTab(android.app.Activity,android.content.Intent,android.net.Uri,java.util.Map,android.net.Uri,int):0:0 -> openCustomTab
+    2:2:void openCustomTab(android.app.Activity,androidx.browser.customtabs.CustomTabsIntent,android.net.Uri,java.util.Map,android.net.Uri,int):0:0 -> openCustomTab
+com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlockerHandler -> com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlockerHandler:
+    1:1:void <init>():0:0 -> <init>
+    2:2:void <init>(java.util.List):0:0 -> <init>
+    1:1:android.webkit.WebResourceResponse checkUrl(com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView,com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt):0:0 -> checkUrl
+    2:2:android.webkit.WebResourceResponse checkUrl(com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView,com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt,com.pichillilorenzo.flutter_inappwebview_android.content_blocker.ContentBlockerTriggerResourceType):0:0 -> checkUrl
+    3:3:android.webkit.WebResourceResponse checkUrl(com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView,com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt,java.lang.String):0:0 -> checkUrl
+com.pichillilorenzo.flutter_inappwebview_android.credential_database.CredentialDatabase -> com.pichillilorenzo.flutter_inappwebview_android.credential_database.CredentialDatabase:
+    1:1:void <init>(com.pichillilorenzo.flutter_inappwebview_android.credential_database.CredentialDatabaseHelper,com.pichillilorenzo.flutter_inappwebview_android.credential_database.URLProtectionSpaceDao,com.pichillilorenzo.flutter_inappwebview_android.credential_database.URLCredentialDao):0:0 -> <init>
+com.pichillilorenzo.flutter_inappwebview_android.find_interaction.FindInteractionSettings -> com.pichillilorenzo.flutter_inappwebview_android.find_interaction.FindInteractionSettings:
+    1:1:java.util.Map getRealSettings(com.pichillilorenzo.flutter_inappwebview_android.find_interaction.FindInteractionController):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.find_interaction.FindInteractionSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserSettings -> com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserSettings:
+    1:1:java.util.Map getRealSettings(com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobSettings -> com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobSettings:
+    1:1:java.util.Map getRealSettings(com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobController):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.print_job.PrintJobSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigSettings -> com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigSettings:
+    1:1:java.util.Map getRealSettings(androidx.webkit.ProcessGlobalConfig):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigSettings$DirectoryBasePaths -> com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigSettings$DirectoryBasePaths:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.process_global_config.ProcessGlobalConfigSettings$DirectoryBasePaths parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.proxy.ProxySettings -> com.pichillilorenzo.flutter_inappwebview_android.proxy.ProxySettings:
+    1:1:java.util.Map getRealSettings(androidx.webkit.ProxyConfig):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.proxy.ProxySettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout -> com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout:
+    1:1:void <init>(android.content.Context):0:0 -> <init>
+    2:2:void <init>(android.content.Context,android.util.AttributeSet):0:0 -> <init>
+    3:3:void <init>(android.content.Context,com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin,java.lang.Object,com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshSettings):0:0 -> <init>
+com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshSettings -> com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshSettings:
+    1:1:java.util.Map getRealSettings(com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshLayout):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.pull_to_refresh.PullToRefreshSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate -> com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt shouldInterceptRequest(com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt):0:0 -> shouldInterceptRequest
+    2:2:void shouldInterceptRequest(com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt,com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate$ShouldInterceptRequestCallback):0:0 -> shouldInterceptRequest
+com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate$ShouldInterceptRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate$ShouldInterceptRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate$SyncShouldInterceptRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.service_worker.ServiceWorkerChannelDelegate$SyncShouldInterceptRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.tracing.TracingSettings -> com.pichillilorenzo.flutter_inappwebview_android.tracing.TracingSettings:
+    1:1:java.util.Map getRealSettings(androidx.webkit.TracingController):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.tracing.TracingSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.types.MarginsExt -> com.pichillilorenzo.flutter_inappwebview_android.types.MarginsExt:
+    1:1:void <init>(double,double,double,double):0:0 -> <init>
+com.pichillilorenzo.flutter_inappwebview_android.types.URLCredential -> com.pichillilorenzo.flutter_inappwebview_android.types.URLCredential:
+    1:1:void <init>(java.lang.Long,java.lang.String,java.lang.String,java.lang.Long):0:0 -> <init>
+    2:2:void <init>(java.lang.String,java.lang.String):0:0 -> <init>
+com.pichillilorenzo.flutter_inappwebview_android.types.URLProtectionSpace -> com.pichillilorenzo.flutter_inappwebview_android.types.URLProtectionSpace:
+    1:1:void <init>(java.lang.Long,java.lang.String,java.lang.String,java.lang.String,int):0:0 -> <init>
+    2:2:void <init>(java.lang.String,java.lang.String,java.lang.String,int,android.net.http.SslCertificate,android.net.http.SslError):0:0 -> <init>
+com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort$1 -> com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort$1:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort$2 -> com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort$2:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort$3 -> com.pichillilorenzo.flutter_inappwebview_android.types.WebMessagePort$3:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceErrorExt -> com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceErrorExt:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceErrorExt fromWebResourceError(android.webkit.WebResourceError):0:0 -> fromWebResourceError
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceErrorExt fromWebResourceError(androidx.webkit.WebResourceErrorCompat):0:0 -> fromWebResourceError
+com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate -> com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt handle(java.lang.String):0:0 -> handle
+    2:2:void handle(java.lang.String,com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate$HandleCallback):0:0 -> handle
+com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate$HandleCallback -> com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate$HandleCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate$SyncHandleCallback -> com.pichillilorenzo.flutter_inappwebview_android.types.WebViewAssetLoaderExt$PathHandlerExtChannelDelegate$SyncHandleCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.ContextMenuSettings -> com.pichillilorenzo.flutter_inappwebview_android.webview.ContextMenuSettings:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.webview.ContextMenuSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewManager$2 -> com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewManager$2:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewManager$3 -> com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewManager$3:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.JavaScriptBridgeInterface$2$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.JavaScriptBridgeInterface$2$1:
+    1:1:void defaultBehaviour(java.lang.Boolean):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(java.lang.Boolean):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.CustomSchemeResponse onLoadResourceWithCustomScheme(com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt):0:0 -> onLoadResourceWithCustomScheme
+    2:2:void onLoadResourceWithCustomScheme(com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt,com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$LoadResourceWithCustomSchemeCallback):0:0 -> onLoadResourceWithCustomScheme
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt shouldInterceptRequest(com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt):0:0 -> shouldInterceptRequest
+    2:2:void shouldInterceptRequest(com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt,com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ShouldInterceptRequestCallback):0:0 -> shouldInterceptRequest
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$1:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$2 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$2:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$3 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$3:
+    1:1:void onReceiveValue(java.lang.Integer):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$4 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$4:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$5 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$5:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$6 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$6:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$7 -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$7:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$CreateWindowCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$CreateWindowCallback:
+    1:1:java.lang.Boolean decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$FormResubmissionCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$FormResubmissionCallback:
+    1:1:java.lang.Integer decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$GeolocationPermissionsShowPromptCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$GeolocationPermissionsShowPromptCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.GeolocationPermissionShowPromptResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsAlertCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsAlertCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.JsAlertResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsBeforeUnloadCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsBeforeUnloadCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.JsBeforeUnloadResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsConfirmCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsConfirmCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.JsConfirmResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsPromptCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$JsPromptCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.JsPromptResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$LoadResourceWithCustomSchemeCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$LoadResourceWithCustomSchemeCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.CustomSchemeResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$PermissionRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$PermissionRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.PermissionResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$PrintRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$PrintRequestCallback:
+    1:1:java.lang.Boolean decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ReceivedClientCertRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ReceivedClientCertRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ReceivedHttpAuthRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ReceivedHttpAuthRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ReceivedServerTrustAuthRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ReceivedServerTrustAuthRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustAuthResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$RenderProcessResponsiveCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$RenderProcessResponsiveCallback:
+    1:1:java.lang.Integer decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$RenderProcessUnresponsiveCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$RenderProcessUnresponsiveCallback:
+    1:1:java.lang.Integer decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$SafeBrowsingHitCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$SafeBrowsingHitCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ShouldInterceptRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ShouldInterceptRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ShouldOverrideUrlLoadingCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$ShouldOverrideUrlLoadingCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.NavigationActionPolicy decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$SyncLoadResourceWithCustomSchemeCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$SyncLoadResourceWithCustomSchemeCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.CustomSchemeResponse decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$SyncShouldInterceptRequestCallback -> com.pichillilorenzo.flutter_inappwebview_android.webview.WebViewChannelDelegate$SyncShouldInterceptRequestCallback:
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceResponseExt decodeResult(java.lang.Object):0:0 -> decodeResult
+    2:2:java.lang.Object decodeResult(java.lang.Object):0:0 -> decodeResult
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView:
+    1:1:void <init>(android.content.Context):0:0 -> <init>
+    2:2:void <init>(android.content.Context,android.util.AttributeSet):0:0 -> <init>
+    3:3:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
+    4:4:void <init>(android.content.Context,com.pichillilorenzo.flutter_inappwebview_android.InAppWebViewFlutterPlugin,java.lang.Object,java.lang.Integer,com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings,java.util.Map,android.view.View,java.util.List):0:0 -> <init>
+    1:1:float getZoomScale():0:0 -> getZoomScale
+    2:2:void getZoomScale(android.webkit.ValueCallback):0:0 -> getZoomScale
+    1:1:android.view.ActionMode startActionMode(android.view.ActionMode$Callback):0:0 -> startActionMode
+    2:2:android.view.ActionMode startActionMode(android.view.ActionMode$Callback,int):0:0 -> startActionMode
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$10$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$10$1:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$16 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$16:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$17 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$17:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$18 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$18:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$19 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$19:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$4$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$4$1:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$7 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$7:
+    1:1:void onReceiveValue(java.lang.Boolean):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$9 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView$9:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient:
+    1:1:java.lang.Boolean acceptsImages(java.lang.String):0:0 -> acceptsImages
+    2:2:java.lang.Boolean acceptsImages(java.lang.String[]):0:0 -> acceptsImages
+    1:1:java.lang.Boolean acceptsVideo(java.lang.String):0:0 -> acceptsVideo
+    2:2:java.lang.Boolean acceptsVideo(java.lang.String[]):0:0 -> acceptsVideo
+    1:1:android.content.Intent getFileChooserIntent(java.lang.String):0:0 -> getFileChooserIntent
+    2:2:android.content.Intent getFileChooserIntent(java.lang.String[],boolean):0:0 -> getFileChooserIntent
+    1:1:void openFileChooser(android.webkit.ValueCallback):0:0 -> openFileChooser
+    2:2:void openFileChooser(android.webkit.ValueCallback,java.lang.String):0:0 -> openFileChooser
+    3:3:void openFileChooser(android.webkit.ValueCallback,java.lang.String,java.lang.String):0:0 -> openFileChooser
+    1:1:void startPickerIntent(android.webkit.ValueCallback,java.lang.String,java.lang.String):0:0 -> startPickerIntent
+    2:2:boolean startPickerIntent(android.webkit.ValueCallback,java.lang.String[],boolean,boolean):0:0 -> startPickerIntent
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$1:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.JsAlertResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.JsAlertResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$12 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$12:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.JsBeforeUnloadResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.JsBeforeUnloadResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$16 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$16:
+    1:1:void defaultBehaviour(java.lang.Boolean):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(java.lang.Boolean):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$17 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$17:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.GeolocationPermissionShowPromptResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.GeolocationPermissionShowPromptResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$18 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$18:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.PermissionResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.PermissionResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$4 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$4:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.JsConfirmResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.JsConfirmResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$8 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewChromeClient$8:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.JsPromptResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.JsPromptResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient:
+    1:1:void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String):0:0 -> onReceivedError
+    2:2:void onReceivedError(android.webkit.WebView,android.webkit.WebResourceRequest,android.webkit.WebResourceError):0:0 -> onReceivedError
+    1:1:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,android.webkit.WebResourceRequest):0:0 -> shouldInterceptRequest
+    2:2:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt):0:0 -> shouldInterceptRequest
+    3:3:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String):0:0 -> shouldInterceptRequest
+    1:1:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):0:0 -> shouldOverrideUrlLoading
+    2:2:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):0:0 -> shouldOverrideUrlLoading
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$1:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.NavigationActionPolicy):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.NavigationActionPolicy):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$2 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$2:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$3 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$3:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustAuthResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustAuthResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$4 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$4:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$5 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$5:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$6 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClient$6:
+    1:1:void defaultBehaviour(java.lang.Integer):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(java.lang.Integer):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat:
+    1:1:void onReceivedError(android.webkit.WebView,int,java.lang.String,java.lang.String):0:0 -> onReceivedError
+    2:2:void onReceivedError(android.webkit.WebView,android.webkit.WebResourceRequest,androidx.webkit.WebResourceErrorCompat):0:0 -> onReceivedError
+    1:1:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,android.webkit.WebResourceRequest):0:0 -> shouldInterceptRequest
+    2:2:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,com.pichillilorenzo.flutter_inappwebview_android.types.WebResourceRequestExt):0:0 -> shouldInterceptRequest
+    3:3:android.webkit.WebResourceResponse shouldInterceptRequest(android.webkit.WebView,java.lang.String):0:0 -> shouldInterceptRequest
+    1:1:boolean shouldOverrideUrlLoading(android.webkit.WebView,android.webkit.WebResourceRequest):0:0 -> shouldOverrideUrlLoading
+    2:2:boolean shouldOverrideUrlLoading(android.webkit.WebView,java.lang.String):0:0 -> shouldOverrideUrlLoading
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$1:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.NavigationActionPolicy):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.NavigationActionPolicy):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$2 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$2:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.HttpAuthResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$3 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$3:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustAuthResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.ServerTrustAuthResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$4 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$4:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.ClientCertResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$5 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$5:
+    1:1:void defaultBehaviour(com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(com.pichillilorenzo.flutter_inappwebview_android.types.SafeBrowsingResponse):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$6 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewClientCompat$6:
+    1:1:void defaultBehaviour(java.lang.Integer):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(java.lang.Integer):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewRenderProcessClient$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewRenderProcessClient$1:
+    1:1:void defaultBehaviour(java.lang.Integer):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(java.lang.Integer):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewRenderProcessClient$2 -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewRenderProcessClient$2:
+    1:1:void defaultBehaviour(java.lang.Integer):0:0 -> defaultBehaviour
+    2:2:void defaultBehaviour(java.lang.Object):0:0 -> defaultBehaviour
+    1:1:boolean nonNullSuccess(java.lang.Integer):0:0 -> nonNullSuccess
+    2:2:boolean nonNullSuccess(java.lang.Object):0:0 -> nonNullSuccess
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings:
+    1:1:java.util.Map getRealSettings(com.pichillilorenzo.flutter_inappwebview_android.webview.InAppWebViewInterface):0:0 -> getRealSettings
+    2:2:java.util.Map getRealSettings(java.lang.Object):0:0 -> getRealSettings
+    1:1:com.pichillilorenzo.flutter_inappwebview_android.ISettings parse(java.util.Map):0:0 -> parse
+    2:2:com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebViewSettings parse(java.util.Map):0:0 -> parse
+com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InputAwareWebView -> com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InputAwareWebView:
+    1:1:void <init>(android.content.Context):0:0 -> <init>
+    2:2:void <init>(android.content.Context,android.util.AttributeSet):0:0 -> <init>
+    3:3:void <init>(android.content.Context,android.util.AttributeSet,int):0:0 -> <init>
+    4:4:void <init>(android.content.Context,android.view.View,java.lang.Boolean):0:0 -> <init>
+com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageChannel$1 -> com.pichillilorenzo.flutter_inappwebview_android.webview.web_message.WebMessageChannel$1:
+    1:1:void onReceiveValue(java.lang.Object):0:0 -> onReceiveValue
+    2:2:void onReceiveValue(java.lang.String):0:0 -> onReceiveValue

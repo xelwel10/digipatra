@@ -1,0 +1,2 @@
+/home/xelwel/Documents/badapatra/android/app/.cxx/RelWithDebInfo/17177342/armeabi-v7a/CMakeFiles/edit_cache.dir
+/home/xelwel/Documents/badapatra/android/app/.cxx/RelWithDebInfo/17177342/armeabi-v7a/CMakeFiles/rebuild_cache.dir

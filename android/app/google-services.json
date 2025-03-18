@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "446267273962",
+    "project_id": "digipatra-f9f5e",
+    "storage_bucket": "digipatra-f9f5e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:446267273962:android:6816d50744468dbdb55d93",
+        "android_client_info": {
+          "package_name": "com.xelwel.digipatra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPFCm3PfWinPaVUQuGdAtomOeme47OFZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

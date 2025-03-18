@@ -1,0 +1,2 @@
+/home/xelwel/Documents/badapatra/android/app/.cxx/Debug/134p2go3/x86_64/CMakeFiles/edit_cache.dir
+/home/xelwel/Documents/badapatra/android/app/.cxx/Debug/134p2go3/x86_64/CMakeFiles/rebuild_cache.dir

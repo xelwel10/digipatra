@@ -1,0 +1,458 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.xelwel.digipatra"
+4    android:versionCode="1"
+5    android:versionName="2.0.1" >
+6
+7    <uses-sdk
+7-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:3:5-74
+8        android:minSdkVersion="23"
+8-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:3:15-41
+9        android:targetSdkVersion="35" />
+9-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:3:42-71
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:2:5-67
+11-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:2:22-64
+12    <!--
+13         Required to query activities that can process text, see:
+14         https://developer.android.com/training/package-visibility and
+15         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+16
+17         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+18    -->
+19    <queries>
+19-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:42:5-47:15
+20        <intent>
+20-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:43:9-46:18
+21            <action android:name="android.intent.action.PROCESS_TEXT" />
+21-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:44:13-73
+21-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:44:21-70
+22
+23            <data android:mimeType="text/plain" />
+23-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:45:13-51
+23-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:45:19-48
+24        </intent>
+25        <intent>
+25-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-10:18
+26            <action android:name="android.support.customtabs.action.CustomTabsService" />
+26-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-90
+26-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:9:21-87
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:23:5-79
+30-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:23:22-76
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:24:5-68
+31-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:24:22-65
+32    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+32-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:25:5-79
+32-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:25:22-76
+33    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+33-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:26:5-88
+33-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:26:22-85
+34    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:27:5-82
+34-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:27:22-79
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:26:5-110
+35-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:26:22-107
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+38        android:name="com.xelwel.digipatra.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.xelwel.digipatra.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:7:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.13.1] /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+46        android:extractNativeLibs="false"
+47        android:icon="@mipmap/launcher_icon"
+47-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:8:9-45
+48        android:label="Digital Naya Badapatra" >
+48-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:6:9-47
+49        <activity
+49-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:9:9-30:20
+50            android:name="com.xelwel.digipatra.MainActivity"
+50-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:10:13-41
+51            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+51-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:15:13-163
+52            android:exported="true"
+52-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:11:13-36
+53            android:hardwareAccelerated="true"
+53-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:16:13-47
+54            android:launchMode="singleTop"
+54-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:12:13-43
+55            android:taskAffinity=""
+55-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:13:13-36
+56            android:theme="@style/LaunchTheme"
+56-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:14:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:17:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:22:13-25:15
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:23:17-72
+67                android:resource="@style/NormalTheme" />
+67-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:24:17-54
+68
+69            <intent-filter>
+69-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:26:13-29:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:27:17-69
+70-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:27:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:28:17-77
+72-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:28:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:33:9-35:33
+80            android:name="flutterEmbedding"
+80-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:34:13-44
+81            android:value="2" />
+81-->/home/xelwel/Documents/badapatra/android/app/src/main/AndroidManifest.xml:35:13-30
+82
+83        <service
+83-->[:firebase_crashlytics] /home/xelwel/Documents/badapatra/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:8:9-12:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:firebase_crashlytics] /home/xelwel/Documents/badapatra/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:8:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:14:13-37
+87            <meta-data
+87-->[:firebase_crashlytics] /home/xelwel/Documents/badapatra/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.crashlytics.FlutterFirebaseAppRegistrar"
+88-->[:firebase_crashlytics] /home/xelwel/Documents/badapatra/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-130
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_crashlytics] /home/xelwel/Documents/badapatra/build/firebase_crashlytics/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+90            <meta-data
+90-->[:firebase_core] /home/xelwel/Documents/badapatra/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:9:13-11:85
+91                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+91-->[:firebase_core] /home/xelwel/Documents/badapatra/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:10:17-124
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[:firebase_core] /home/xelwel/Documents/badapatra/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:15:13-17:85
+94                android:name="com.google.firebase.components:com.google.firebase.crashlytics.FirebaseCrashlyticsKtxRegistrar"
+94-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:16:17-126
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:17:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:18:13-20:85
+97                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+97-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:19:17-115
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-crashlytics:19.4.1] /home/xelwel/.gradle/caches/transforms-3/bc20e3d9013e820000ba62fdab19a677/transformed/jetified-firebase-crashlytics-19.4.1/AndroidManifest.xml:20:17-82
+99            <meta-data
+99-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:33:13-35:85
+100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+100-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:34:17-139
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.android.gms:play-services-measurement-api:22.3.0] /home/xelwel/.gradle/caches/transforms-3/01b9ec98db9444ba9097746bf0e27d22/transformed/jetified-play-services-measurement-api-22.3.0/AndroidManifest.xml:35:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:29:13-31:85
+103                android:name="com.google.firebase.components:com.google.firebase.sessions.FirebaseSessionsRegistrar"
+103-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:30:17-117
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:31:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-installations:18.0.0] /home/xelwel/.gradle/caches/transforms-3/48de7cc16f3a5e543529c77e4d4aef85/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+106                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+106-->[com.google.firebase:firebase-installations:18.0.0] /home/xelwel/.gradle/caches/transforms-3/48de7cc16f3a5e543529c77e4d4aef85/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-installations:18.0.0] /home/xelwel/.gradle/caches/transforms-3/48de7cc16f3a5e543529c77e4d4aef85/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-installations:18.0.0] /home/xelwel/.gradle/caches/transforms-3/48de7cc16f3a5e543529c77e4d4aef85/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+109                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+109-->[com.google.firebase:firebase-installations:18.0.0] /home/xelwel/.gradle/caches/transforms-3/48de7cc16f3a5e543529c77e4d4aef85/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-installations:18.0.0] /home/xelwel/.gradle/caches/transforms-3/48de7cc16f3a5e543529c77e4d4aef85/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/xelwel/.gradle/caches/transforms-3/55f9d1ab51f5dd60bae882d88115e344/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+112                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+112-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/xelwel/.gradle/caches/transforms-3/55f9d1ab51f5dd60bae882d88115e344/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-common-ktx:21.0.0] /home/xelwel/.gradle/caches/transforms-3/55f9d1ab51f5dd60bae882d88115e344/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+115                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+115-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-datatransport:19.0.0] /home/xelwel/.gradle/caches/transforms-3/be3a41025a669eb9163037eaa888221d/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:25:13-27:85
+118                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+118-->[com.google.firebase:firebase-datatransport:19.0.0] /home/xelwel/.gradle/caches/transforms-3/be3a41025a669eb9163037eaa888221d/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:26:17-115
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-datatransport:19.0.0] /home/xelwel/.gradle/caches/transforms-3/be3a41025a669eb9163037eaa888221d/transformed/jetified-firebase-datatransport-19.0.0/AndroidManifest.xml:27:17-82
+120        </service>
+121        <service
+121-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:22:9-25:40
+122            android:name="com.google.firebase.sessions.SessionLifecycleService"
+122-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:23:13-80
+123            android:enabled="true"
+123-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:24:13-35
+124            android:exported="false" />
+124-->[com.google.firebase:firebase-sessions:2.0.9] /home/xelwel/.gradle/caches/transforms-3/e2e8ba5a8a11a4279ddf91300afe1304/transformed/jetified-firebase-sessions-2.0.9/AndroidManifest.xml:25:13-37
+125
+126        <provider
+126-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+127            android:name="com.google.firebase.provider.FirebaseInitProvider"
+127-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+128            android:authorities="com.xelwel.digipatra.firebaseinitprovider"
+128-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+130            android:exported="false"
+130-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+131            android:initOrder="100" />
+131-->[com.google.firebase:firebase-common:21.0.0] /home/xelwel/.gradle/caches/transforms-3/b953c9388888777ea679634758d5c326/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+132
+133        <activity
+133-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:14:9-18:47
+134            android:name="com.pichillilorenzo.flutter_inappwebview_android.in_app_browser.InAppBrowserActivity"
+134-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-112
+135            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+135-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:16:13-137
+136            android:exported="false"
+136-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-37
+137            android:theme="@style/AppTheme" />
+137-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-44
+138        <activity
+138-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:19:9-22:55
+139            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivity"
+139-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-120
+140            android:exported="false"
+140-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+141            android:theme="@style/ThemeTransparent" />
+141-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-52
+142        <activity
+142-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:23:9-26:55
+143            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivity"
+143-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:24:13-114
+144            android:exported="false"
+144-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:25:13-37
+145            android:theme="@style/ThemeTransparent" />
+145-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:26:13-52
+146        <activity
+146-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:27:9-31:55
+147            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+147-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:28:13-134
+148            android:exported="false"
+148-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-37
+149            android:launchMode="singleInstance"
+149-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-48
+150            android:theme="@style/ThemeTransparent" />
+150-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-52
+151        <activity
+151-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:32:9-36:55
+152            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+152-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:33:13-128
+153            android:exported="false"
+153-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:34:13-37
+154            android:launchMode="singleInstance"
+154-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-48
+155            android:theme="@style/ThemeTransparent" />
+155-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-52
+156
+157        <receiver
+157-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:38:9-41:40
+158            android:name="com.pichillilorenzo.flutter_inappwebview_android.chrome_custom_tabs.ActionBroadcastReceiver"
+158-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:39:13-119
+159            android:enabled="true"
+159-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:40:13-35
+160            android:exported="false" />
+160-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:41:13-37
+161
+162        <meta-data
+162-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-45:36
+163            android:name="io.flutter.embedded_views_preview"
+163-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-61
+164            android:value="true" />
+164-->[:flutter_inappwebview_android] /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-33
+165
+166        <receiver
+166-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:29:9-33:20
+167            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+167-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:30:13-85
+168            android:enabled="true"
+168-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:31:13-35
+169            android:exported="false" >
+169-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:32:13-37
+170        </receiver>
+171
+172        <service
+172-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:35:9-38:40
+173            android:name="com.google.android.gms.measurement.AppMeasurementService"
+173-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:36:13-84
+174            android:enabled="true"
+174-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:37:13-35
+175            android:exported="false" />
+175-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:38:13-37
+176        <service
+176-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:39:9-43:72
+177            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+177-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:40:13-87
+178            android:enabled="true"
+178-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:41:13-35
+179            android:exported="false"
+179-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:42:13-37
+180            android:permission="android.permission.BIND_JOB_SERVICE" />
+180-->[com.google.android.gms:play-services-measurement:22.3.0] /home/xelwel/.gradle/caches/transforms-3/a34ece91c2bb40e15e905271960f959a/transformed/jetified-play-services-measurement-22.3.0/AndroidManifest.xml:43:13-69
+181
+182        <activity
+182-->[com.google.android.gms:play-services-base:18.5.0] /home/xelwel/.gradle/caches/transforms-3/3f1cc3ede489c425e3028b60ede1804f/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+183            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+183-->[com.google.android.gms:play-services-base:18.5.0] /home/xelwel/.gradle/caches/transforms-3/3f1cc3ede489c425e3028b60ede1804f/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+184            android:exported="false"
+184-->[com.google.android.gms:play-services-base:18.5.0] /home/xelwel/.gradle/caches/transforms-3/3f1cc3ede489c425e3028b60ede1804f/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+185            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+185-->[com.google.android.gms:play-services-base:18.5.0] /home/xelwel/.gradle/caches/transforms-3/3f1cc3ede489c425e3028b60ede1804f/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+186
+187        <uses-library
+187-->[androidx.window:window:1.2.0] /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+188            android:name="androidx.window.extensions"
+188-->[androidx.window:window:1.2.0] /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+189            android:required="false" />
+189-->[androidx.window:window:1.2.0] /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+190        <uses-library
+190-->[androidx.window:window:1.2.0] /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+191            android:name="androidx.window.sidecar"
+191-->[androidx.window:window:1.2.0] /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+192            android:required="false" />
+192-->[androidx.window:window:1.2.0] /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+193        <uses-library
+193-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/xelwel/.gradle/caches/transforms-3/efedeebde391dad6943d5c3a1c0a5acf/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:23:9-25:40
+194            android:name="android.ext.adservices"
+194-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/xelwel/.gradle/caches/transforms-3/efedeebde391dad6943d5c3a1c0a5acf/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:24:13-50
+195            android:required="false" />
+195-->[androidx.privacysandbox.ads:ads-adservices:1.1.0-beta11] /home/xelwel/.gradle/caches/transforms-3/efedeebde391dad6943d5c3a1c0a5acf/transformed/jetified-ads-adservices-1.1.0-beta11/AndroidManifest.xml:25:13-37
+196
+197        <meta-data
+197-->[com.google.android.gms:play-services-basement:18.5.0] /home/xelwel/.gradle/caches/transforms-3/b180cda7e91cace1cea69da31dfaadb4/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:21:9-23:69
+198            android:name="com.google.android.gms.version"
+198-->[com.google.android.gms:play-services-basement:18.5.0] /home/xelwel/.gradle/caches/transforms-3/b180cda7e91cace1cea69da31dfaadb4/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:22:13-58
+199            android:value="@integer/google_play_services_version" />
+199-->[com.google.android.gms:play-services-basement:18.5.0] /home/xelwel/.gradle/caches/transforms-3/b180cda7e91cace1cea69da31dfaadb4/transformed/jetified-play-services-basement-18.5.0/AndroidManifest.xml:23:13-66
+200
+201        <provider
+201-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+202            android:name="androidx.startup.InitializationProvider"
+202-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+203            android:authorities="com.xelwel.digipatra.androidx-startup"
+203-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+204            android:exported="false" >
+204-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+205            <meta-data
+205-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+206                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+206-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+207                android:value="androidx.startup" />
+207-->[androidx.emoji2:emoji2:1.2.0] /home/xelwel/.gradle/caches/transforms-3/0826604ac3aa4f9bcebc98b51cc71883/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+208            <meta-data
+208-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/xelwel/.gradle/caches/transforms-3/a6553384484669112216383f63728eff/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+209                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+209-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/xelwel/.gradle/caches/transforms-3/a6553384484669112216383f63728eff/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+210                android:value="androidx.startup" />
+210-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/xelwel/.gradle/caches/transforms-3/a6553384484669112216383f63728eff/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+211            <meta-data
+211-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+212                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+212-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+213                android:value="androidx.startup" />
+213-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+214        </provider>
+215
+216        <service
+216-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/xelwel/.gradle/caches/transforms-3/3fe49f1d5f6a79096ba8a7b5f520f855/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:26:9-32:19
+217            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+217-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/xelwel/.gradle/caches/transforms-3/3fe49f1d5f6a79096ba8a7b5f520f855/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:27:13-103
+218            android:exported="false" >
+218-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/xelwel/.gradle/caches/transforms-3/3fe49f1d5f6a79096ba8a7b5f520f855/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:28:13-37
+219            <meta-data
+219-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/xelwel/.gradle/caches/transforms-3/3fe49f1d5f6a79096ba8a7b5f520f855/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:29:13-31:39
+220                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+220-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/xelwel/.gradle/caches/transforms-3/3fe49f1d5f6a79096ba8a7b5f520f855/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:30:17-94
+221                android:value="cct" />
+221-->[com.google.android.datatransport:transport-backend-cct:3.3.0] /home/xelwel/.gradle/caches/transforms-3/3fe49f1d5f6a79096ba8a7b5f520f855/transformed/jetified-transport-backend-cct-3.3.0/AndroidManifest.xml:31:17-36
+222        </service>
+223        <service
+223-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:24:9-28:19
+224            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+224-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:25:13-117
+225            android:exported="false"
+225-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:26:13-37
+226            android:permission="android.permission.BIND_JOB_SERVICE" >
+226-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:27:13-69
+227        </service>
+228
+229        <receiver
+229-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:30:9-32:40
+230            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+230-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:31:13-132
+231            android:exported="false" />
+231-->[com.google.android.datatransport:transport-runtime:3.3.0] /home/xelwel/.gradle/caches/transforms-3/90991cbef6661fc4f138727c6bc3da25/transformed/jetified-transport-runtime-3.3.0/AndroidManifest.xml:32:13-37
+232        <receiver
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+233            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+234            android:directBootAware="false"
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+235            android:enabled="true"
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+236            android:exported="true"
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+237            android:permission="android.permission.DUMP" >
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+238            <intent-filter>
+238-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+239                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+240            </intent-filter>
+241            <intent-filter>
+241-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+242                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+243            </intent-filter>
+244            <intent-filter>
+244-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+245                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+246            </intent-filter>
+247            <intent-filter>
+247-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+248                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+248-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/xelwel/.gradle/caches/transforms-3/97410c0075e597924ed0fd1066c207c2/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+249            </intent-filter>
+250        </receiver>
+251    </application>
+252
+253</manifest>
