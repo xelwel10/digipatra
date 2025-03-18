@@ -30,8 +30,6 @@ class HomePageView extends StatefulWidget {
 }
 
 class _HomePageViewState extends State<HomePageView> {
-  final GlobalKey<RefreshIndicatorState> _refreshIndicatorKey =
-      GlobalKey<RefreshIndicatorState>();
   bool _isConnected = true;
   final GlobalKey webViewKey = GlobalKey();
   InAppWebViewController? webViewController;
@@ -67,29 +65,7 @@ class _HomePageViewState extends State<HomePageView> {
   void initState() {
     super.initState();
     checkConnectivity();
-    _setDeviceInfo();
     _focusNode.requestFocus();
-  }
-
-  Future<void> _setDeviceInfo() async {
-    final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
-    try {
-      if (defaultTargetPlatform == TargetPlatform.android) {
-        AndroidDeviceInfo androidInfo = await deviceInfoPlugin.androidInfo;
-        FirebaseCrashlytics.instance
-            .setCustomKey("device_model", androidInfo.model);
-        FirebaseCrashlytics.instance
-            .setCustomKey("android_version", androidInfo.version.release);
-      } else if (defaultTargetPlatform == TargetPlatform.iOS) {
-        IosDeviceInfo iosInfo = await deviceInfoPlugin.iosInfo;
-        FirebaseCrashlytics.instance
-            .setCustomKey("device_model", iosInfo.utsname.machine);
-        FirebaseCrashlytics.instance
-            .setCustomKey("ios_version", iosInfo.systemVersion);
-      }
-    } catch (e, stack) {
-      FirebaseCrashlytics.instance.recordError(e, stack);
-    }
   }
 
   Future<void> logError(dynamic e, StackTrace stack) async {
