@@ -34,10 +34,12 @@ jobs:
         run: flutter pub get
 
       - name: Build APK
-        run: flutter build apk --release
+        run: flutter build apk --release --verbose
+        working-directory: ./badapatra
 
       - name: Rename APK with Custom Name
         run: mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/${{ env.APK_NAME }}.apk
+        working-directory: ./badapatra
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
