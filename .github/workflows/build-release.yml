@@ -1,0 +1,81 @@
+name: Build and Release APK
+
+on:
+  push:
+    branches:
+      - main  
+  workflow_dispatch: 
+
+env:
+  APK_NAME: "Badapatra"
+  APP_VERSION: "2.0.2"
+
+jobs:
+  build:
+    name: Build APK
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Java
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17' 
+          distribution: temurin
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Build APK
+        run: flutter build apk --release
+
+      - name: Rename APK with Custom Name
+        run: mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/${{ env.APK_NAME }}.apk
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/${{ env.APK_NAME }}.apk
+  
+  release:
+    name: Release APK
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download APK artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: release-apk
+
+      - name: Create GitHub Release (APK)
+        uses: ncipollo/release-action@v1
+        with:
+          artifacts: "${{ env.APK_NAME }}.apk"
+          token: ${{ secrets.GH_TOKEN }}
+          tag: ${{ env.APP_VERSION }}
+          name: ${{ env.APP_VERSION }}
+          draft: false
+          prerelease: false
+          skipIfReleaseExists: true
+
+      - name: Upload to Public Repository Releases
+        env:
+          GH_TOKEN: ${{ secrets.PUBLIC_REPO_TOKEN }}
+        run: |
+          gh release create ${{ env.APP_VERSION }} \
+            ${{ env.APK_NAME }}.apk \
+            --repo xelwel10/releases \
+            --title "${{ env.APP_VERSION }}" \
+            --draft=false \
+            --prerelease=false
+
+    

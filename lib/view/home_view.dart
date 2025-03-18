@@ -203,21 +203,21 @@ class _HomePageViewState extends State<HomePageView> {
                     },
                     child: Column(
                       children: [
-                        ElevatedButton(
-                          onPressed: () {
-                            debugPrint(
-                                "Test error report -----------------------");
-                            FirebaseCrashlytics.instance
-                                .log("WebView failed to load: test");
+                        // ElevatedButton(
+                        //   onPressed: () {
+                        //     debugPrint(
+                        //         "Test error report -----------------------");
+                        //     FirebaseCrashlytics.instance
+                        //         .log("WebView failed to load: test");
 
-                            FirebaseCrashlytics.instance.recordError(
-                                Exception("Test error message"),
-                                StackTrace.empty,
-                                reason: "Test crash report");
-                            // FirebaseCrashlytics.instance.crash();
-                          },
-                          child: Text('Send Test Crash'),
-                        ),
+                        //     FirebaseCrashlytics.instance.recordError(
+                        //         Exception("Test error message"),
+                        //         StackTrace.empty,
+                        //         reason: "Test crash report");
+                        //     // FirebaseCrashlytics.instance.crash();
+                        //   },
+                        //   child: Text('Send Test Crash'),
+                        // ),
                         Expanded(
                           child: InAppWebView(
                             key: webViewKey,
