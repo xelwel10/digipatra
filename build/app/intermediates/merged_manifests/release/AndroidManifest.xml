@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.xelwel.digipatra"
     android:versionCode="1"
-    android:versionName="2.0.1" >
+    android:versionName="2.0.2" >
 
     <uses-sdk
         android:minSdkVersion="23"
@@ -163,6 +163,14 @@
             android:name="io.flutter.embedded_views_preview"
             android:value="true" />
 
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
             android:enabled="true"
@@ -190,9 +198,6 @@
         <uses-library
             android:name="androidx.window.sidecar"
             android:required="false" />
-        <uses-library
-            android:name="android.ext.adservices"
-            android:required="false" />
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -213,13 +218,10 @@
                 android:value="androidx.startup" />
         </provider>
 
-        <service
-            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-            android:exported="false" >
-            <meta-data
-                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-                android:value="cct" />
-        </service>
+        <uses-library
+            android:name="android.ext.adservices"
+            android:required="false" />
+
         <service
             android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
             android:exported="false"

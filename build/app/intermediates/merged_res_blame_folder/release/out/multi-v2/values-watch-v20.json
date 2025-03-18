@@ -4,7 +4,7 @@
             "outputFile": "com.xelwel.digipatra.app-mergeReleaseResources-41:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/xelwel/.gradle/caches/transforms-3/33aef8f1496f4c063e50d91246f352cf/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/xelwel/.gradle/caches/transforms-3/aef83af329388bbfa4b31320362a4cdc/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

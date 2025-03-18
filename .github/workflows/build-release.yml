@@ -41,7 +41,7 @@ jobs:
         run: flutter clean
 
       - name: Build APK
-        run: flutter build apk --release --verbose
+        run: flutter build apk --release --no-tree-shake-icons
 
       - name: Rename APK with Custom Name
         run: mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/${{ env.APK_NAME }}.apk

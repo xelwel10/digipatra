@@ -150,7 +150,7 @@
 -keep class com.pichillilorenzo.flutter_inappwebview_android.webview.in_app_webview.InAppWebView { <init>(...); }
 
 # End of content from /home/xelwel/Documents/badapatra/build/flutter_inappwebview_android/intermediates/aapt_proguard_file/release/aapt_rules.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/9a4177b1849dc71ced407c021f76ae1b/transformed/webkit-1.12.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/0ea723eb682f0d10fe46c71269f023b2/transformed/webkit-1.12.0/proguard.txt
 # Copyright 2018 The Chromium Authors
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
@@ -183,8 +183,8 @@
 -keepnames public class androidx.webkit.ProcessGlobalConfig {
     private static final *** sProcessGlobalConfig;
 }
-# End of content from /home/xelwel/.gradle/caches/transforms-3/9a4177b1849dc71ced407c021f76ae1b/transformed/webkit-1.12.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/33aef8f1496f4c063e50d91246f352cf/transformed/appcompat-1.6.1/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/0ea723eb682f0d10fe46c71269f023b2/transformed/webkit-1.12.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/aef83af329388bbfa4b31320362a4cdc/transformed/appcompat-1.6.1/proguard.txt
 # Copyright (C) 2018 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -208,8 +208,8 @@
   <methods>;
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/33aef8f1496f4c063e50d91246f352cf/transformed/appcompat-1.6.1/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/c81d44821ec6740482614659ef6ef635/transformed/fragment-1.7.1/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/aef83af329388bbfa4b31320362a4cdc/transformed/appcompat-1.6.1/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/52d7b5d3561f3b26faa6b73678b5c2f7/transformed/fragment-1.7.1/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -240,8 +240,8 @@
     public <init>();
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/c81d44821ec6740482614659ef6ef635/transformed/fragment-1.7.1/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/52d7b5d3561f3b26faa6b73678b5c2f7/transformed/fragment-1.7.1/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/d0194e6a9181d25d41d0d32490c7f193/transformed/jetified-window-1.2.0/proguard.txt
 # Copyright (C) 2020 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -269,8 +269,8 @@
 }
 # Required for window area API reflection guard
 -keep interface androidx.window.area.reflectionguard.* {*;}
-# End of content from /home/xelwel/.gradle/caches/transforms-3/274396eaedb1532a4e9ffe9e31f59f7a/transformed/jetified-window-1.2.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/4942e021871c0c7fe8590e1643df573c/transformed/vectordrawable-animated-1.1.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/d0194e6a9181d25d41d0d32490c7f193/transformed/jetified-window-1.2.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/07810a8ab8a39d77db85828a4c862050/transformed/vectordrawable-animated-1.1.0/proguard.txt
 # Copyright (C) 2016 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -291,8 +291,8 @@
    *** get*();
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/4942e021871c0c7fe8590e1643df573c/transformed/vectordrawable-animated-1.1.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/977b91f6bdbdf337ebc6950dcc235668/transformed/lifecycle-viewmodel-2.7.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/07810a8ab8a39d77db85828a4c862050/transformed/vectordrawable-animated-1.1.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/2c3df38bd03136a33a0ec313161aa269/transformed/lifecycle-viewmodel-2.7.0/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>();
 }
@@ -301,12 +301,12 @@
     <init>(android.app.Application);
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/977b91f6bdbdf337ebc6950dcc235668/transformed/lifecycle-viewmodel-2.7.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/a6553384484669112216383f63728eff/transformed/jetified-lifecycle-process-2.7.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/2c3df38bd03136a33a0ec313161aa269/transformed/lifecycle-viewmodel-2.7.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/4c5cdfee4152a461f1d0e30485f6bd8d/transformed/jetified-lifecycle-process-2.7.0/proguard.txt
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 -keepclassmembers class * extends androidx.lifecycle.EmptyActivityLifecycleCallbacks { *; }
-# End of content from /home/xelwel/.gradle/caches/transforms-3/a6553384484669112216383f63728eff/transformed/jetified-lifecycle-process-2.7.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/62eb40cd99eb837fe316ed1d0dd9c7b3/transformed/jetified-savedstate-1.2.1/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/4c5cdfee4152a461f1d0e30485f6bd8d/transformed/jetified-lifecycle-process-2.7.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/3d5ad5b10a7bd9315bb9317e9ebf6ca5/transformed/jetified-savedstate-1.2.1/proguard.txt
 # Copyright (C) 2019 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -325,8 +325,8 @@
     <init>();
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/62eb40cd99eb837fe316ed1d0dd9c7b3/transformed/jetified-savedstate-1.2.1/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/dc822c315702525cf2db116a2a38fbac/transformed/lifecycle-runtime-2.7.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/3d5ad5b10a7bd9315bb9317e9ebf6ca5/transformed/jetified-savedstate-1.2.1/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/05cbf471abb1d96a080f82f64a46d5ff/transformed/lifecycle-runtime-2.7.0/proguard.txt
 -keepattributes AnnotationDefault,
                 RuntimeVisibleAnnotations,
                 RuntimeVisibleParameterAnnotations,
@@ -347,8 +347,8 @@
 # this rule is need to work properly when app is compiled with api 28, see b/142778206
 # Also this rule prevents registerIn from being inlined.
 -keepclassmembers class androidx.lifecycle.ReportFragment$LifecycleCallbacks { *; }
-# End of content from /home/xelwel/.gradle/caches/transforms-3/dc822c315702525cf2db116a2a38fbac/transformed/lifecycle-runtime-2.7.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/28e6592178ac827b450fb75c59c3ccc4/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/05cbf471abb1d96a080f82f64a46d5ff/transformed/lifecycle-runtime-2.7.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/b47a101b103e5aa7de0061822f923d0d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/proguard.txt
 -keepclassmembers,allowobfuscation class * extends androidx.lifecycle.ViewModel {
     <init>(androidx.lifecycle.SavedStateHandle);
 }
@@ -357,8 +357,8 @@
     <init>(android.app.Application,androidx.lifecycle.SavedStateHandle);
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/28e6592178ac827b450fb75c59c3ccc4/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/b47a101b103e5aa7de0061822f923d0d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/ea5756c2d08d47f96b63b0998ec9484d/transformed/core-1.13.1/proguard.txt
 # Never inline methods, but allow shrinking and obfuscation.
 -keepclassmembernames,allowobfuscation,allowshrinking class androidx.core.view.ViewCompat$Api* {
   <methods>;
@@ -376,15 +376,15 @@
   <methods>;
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/5dad8d400708826257b71edce6569c46/transformed/core-1.13.1/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/e4076df38ca9e5a54e138e45c4d88f21/transformed/versionedparcelable-1.1.1/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/ea5756c2d08d47f96b63b0998ec9484d/transformed/core-1.13.1/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/a30182db455e4c33c188e9d4e4fec718/transformed/versionedparcelable-1.1.1/proguard.txt
 -keep class * implements androidx.versionedparcelable.VersionedParcelable
 -keep public class android.support.**Parcelizer { *; }
 -keep public class androidx.**Parcelizer { *; }
 -keep public class androidx.versionedparcelable.ParcelImpl
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/e4076df38ca9e5a54e138e45c4d88f21/transformed/versionedparcelable-1.1.1/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/b06f9ffd9746f76987ad2c084e455f98/transformed/jetified-startup-runtime-1.1.1/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/a30182db455e4c33c188e9d4e4fec718/transformed/versionedparcelable-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/0795b69a38a96174b3446ab8201ec606/transformed/jetified-startup-runtime-1.1.1/proguard.txt
 # It's important that we preserve initializer names, given they are used in the AndroidManifest.xml.
 -keepnames class * extends androidx.startup.Initializer
 
@@ -398,8 +398,8 @@
 
 -assumenosideeffects class androidx.startup.StartupLogger { public static <methods>; }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/b06f9ffd9746f76987ad2c084e455f98/transformed/jetified-startup-runtime-1.1.1/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/5756f8b58657afb8892e036e6c846203/transformed/jetified-core-1.0.0/proguard.txt
+# End of content from /home/xelwel/.gradle/caches/transforms-3/0795b69a38a96174b3446ab8201ec606/transformed/jetified-startup-runtime-1.1.1/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/29af9b8790f5b559f2b64a37d37b9a48/transformed/jetified-core-1.0.0/proguard.txt
 # Copyright (C) 2022 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -424,8 +424,8 @@
 -keep interface androidx.window.extensions.core.util.function.Function {
   public *** apply(***);
 }
-# End of content from /home/xelwel/.gradle/caches/transforms-3/5756f8b58657afb8892e036e6c846203/transformed/jetified-core-1.0.0/proguard.txt
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/47134ce105253b10d8ecb4f97fa0bd71/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# End of content from /home/xelwel/.gradle/caches/transforms-3/29af9b8790f5b559f2b64a37d37b9a48/transformed/jetified-core-1.0.0/proguard.txt
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/e1b76e62a53a7cd72cd883a641f0816b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
 -keep,allowobfuscation @interface androidx.annotation.Keep
 -keep @androidx.annotation.Keep class * {*;}
 
@@ -445,8 +445,8 @@
   @androidx.annotation.DoNotInline <methods>;
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/47134ce105253b10d8ecb4f97fa0bd71/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/921d743f2cb86694974ab5e72778113c/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
+# End of content from /home/xelwel/.gradle/caches/transforms-3/e1b76e62a53a7cd72cd883a641f0816b/transformed/rules/lib/META-INF/proguard/androidx-annotations.pro
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/011b32e9922ffcc9140774c28482fd42/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
 # When editing this file, update the following files as well:
 # - META-INF/proguard/coroutines.pro
 # - META-INF/com.android.tools/proguard/coroutines.pro
@@ -474,8 +474,8 @@
 
 # An annotation used for build tooling, won't be directly accessed.
 -dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
-# End of content from /home/xelwel/.gradle/caches/transforms-3/921d743f2cb86694974ab5e72778113c/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
-# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/0357d8c3d97c79169e7ce0ea9838e8ad/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# End of content from /home/xelwel/.gradle/caches/transforms-3/011b32e9922ffcc9140774c28482fd42/transformed/rules/lib/META-INF/com.android.tools/r8/coroutines.pro
+# The proguard configuration file for the following section is /home/xelwel/.gradle/caches/transforms-3/75e1d154610a92ad19d3649af87efc8a/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
 # Allow R8 to optimize away the FastServiceLoader.
 # Together with ServiceLoader optimization in R8
 # this results in direct instantiation when loading Dispatchers.Main
@@ -499,7 +499,7 @@
     boolean getRECOVER_STACK_TRACES() return false;
 }
 
-# End of content from /home/xelwel/.gradle/caches/transforms-3/0357d8c3d97c79169e7ce0ea9838e8ad/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
+# End of content from /home/xelwel/.gradle/caches/transforms-3/75e1d154610a92ad19d3649af87efc8a/transformed/rules/lib/META-INF/com.android.tools/r8-from-1.6.0/coroutines.pro
 # The proguard configuration file for the following section is <unknown>
 -keep class **.R
 -keep class **.R$* {*;}

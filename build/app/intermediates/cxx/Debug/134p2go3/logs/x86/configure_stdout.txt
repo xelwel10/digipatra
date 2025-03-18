@@ -1,4 +1,0 @@
-Not searching for unused variables given on the command line.
--- Configuring done
--- Generating done
--- Build files have been written to: /home/xelwel/Documents/badapatra/android/app/.cxx/Debug/134p2go3/x86
