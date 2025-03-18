@@ -9,6 +9,7 @@ on:
 env:
   APK_NAME: "Badapatra"
   APP_VERSION: "2.0.2"
+  GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4096m"
 
 jobs:
   build:
@@ -29,6 +30,14 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           channel: 'stable'
+
+      - name: Verify Flutter environment
+        run: flutter doctor -v
+
+      - name: Install Android SDK components
+        run: |
+          yes | sdkmanager --licenses
+          sdkmanager "build-tools;33.0.1" "platform-tools" "platforms;android-33"
 
       - name: Install dependencies
         run: flutter pub get

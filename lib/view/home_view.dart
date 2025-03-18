@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:connectivity_plus/connectivity_plus.dart';
-import 'package:device_info_plus/device_info_plus.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
@@ -9,8 +8,6 @@ import 'package:flutter/services.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:simple_app/core/config.dart';
 import 'package:simple_app/core/loading_indicator.dart';
-import 'package:simple_app/core/report_error.dart';
-import 'package:simple_app/model/device_model.dart';
 
 String firstUrl = "   ";
 
@@ -54,7 +51,6 @@ class _HomePageViewState extends State<HomePageView> {
   String url = "https://digitalbadapatra.com";
   String? token;
   bool isLoading = false;
-  DeviceModel? info;
   double progress = 0;
   final urlController = TextEditingController();
   final FocusNode _focusNode = FocusNode();
