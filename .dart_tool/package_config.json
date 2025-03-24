@@ -9,7 +9,7 @@
     },
     {
       "name": "archive",
-      "rootUri": "file:///home/xelwel/.pub-cache/hosted/pub.dev/archive-4.0.4",
+      "rootUri": "file:///home/xelwel/.pub-cache/hosted/pub.dev/archive-4.0.5",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -237,7 +237,7 @@
     },
     {
       "name": "image",
-      "rootUri": "file:///home/xelwel/.pub-cache/hosted/pub.dev/image-4.5.3",
+      "rootUri": "file:///home/xelwel/.pub-cache/hosted/pub.dev/image-4.5.4",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -476,7 +476,7 @@
       "languageVersion": "3.5"
     }
   ],
-  "generated": "2025-03-24T07:23:20.195169Z",
+  "generated": "2025-03-24T07:34:52.442296Z",
   "generator": "pub",
   "generatorVersion": "3.7.2",
   "flutterRoot": "file:///home/xelwel/flutter_linux_3.29.0-stable/flutter",
