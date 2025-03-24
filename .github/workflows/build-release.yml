@@ -8,7 +8,7 @@ on:
 
 env:
   APK_NAME: "Badapatra"
-  APP_VERSION: "2.0.4"
+  APP_VERSION: "2.0.5"
   GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx4096m"
 
 jobs:

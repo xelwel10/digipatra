@@ -12,7 +12,7 @@ const String releasesUrl =
 String downloadUrlKey = 'url';
 String downloadFilename = 'Badapatra.apk';
 
-String appVersion = '2.0.4';
+String appVersion = '2.0.5';
 
 late Map<String, dynamic> map;
 late String latestVersion;
