@@ -1,0 +1,5 @@
+- change all version name, preffered to increase by 0.0.1
+- add changes in checkBadapatraUpdate.json body section 
+- push to github 
+
+- share the latest apk from releases section if necessary
