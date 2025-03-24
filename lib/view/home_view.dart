@@ -8,6 +8,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:simple_app/core/config.dart';
 import 'package:simple_app/core/loading_indicator.dart';
+import 'package:simple_app/core/update_manager.dart';
 
 String firstUrl = "   ";
 
@@ -62,6 +63,7 @@ class _HomePageViewState extends State<HomePageView> {
     super.initState();
     checkConnectivity();
     _focusNode.requestFocus();
+    checkAppUpdates();
   }
 
   Future<void> logError(dynamic e, StackTrace stack) async {

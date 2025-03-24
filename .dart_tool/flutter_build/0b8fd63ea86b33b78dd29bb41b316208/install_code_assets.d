@@ -1,0 +1,1 @@
+ /home/xelwel/Documents/badapatra/.dart_tool/flutter_build/0b8fd63ea86b33b78dd29bb41b316208/native_assets.json: 
