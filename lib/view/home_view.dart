@@ -63,7 +63,12 @@ class _HomePageViewState extends State<HomePageView> {
     super.initState();
     checkConnectivity();
     _focusNode.requestFocus();
-    checkAppUpdates();
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final updateAvailable = await checkAppUpdates();
+      if (updateAvailable && mounted) {
+        showAppUpdateDialog(context);
+      }
+    });
   }
 
   Future<void> logError(dynamic e, StackTrace stack) async {

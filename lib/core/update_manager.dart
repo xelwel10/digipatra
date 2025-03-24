@@ -8,45 +8,44 @@ import 'package:url_launcher/url_launcher.dart';
 const String checkUrl =
     'https://raw.githubusercontent.com/Xelwel10/digipatra/main/checkBadapatraUpdate.json';
 const String releasesUrl =
-    'https://api.github.com/repos/Xelwel10/releases/releases/latest';
+    'https://api.github.com/repos/Xelwel10/digipatra/releases/latest';
 String downloadUrlKey = 'url';
 String downloadFilename = 'Badapatra.apk';
 
-String appVersion = '2.0.6';
+String appVersion = '2.0.7';
 
 late Map<String, dynamic> map;
 late String latestVersion;
 late Map<String, dynamic> releasesResponse;
 
-Future<void> checkAppUpdates() async {
+Future<bool> checkAppUpdates() async {
   try {
     final response = await http.get(Uri.parse(checkUrl));
-
     if (response.statusCode != 200) {
-      return;
+      return false;
     }
 
     map = json.decode(response.body) as Map<String, dynamic>;
-    latestVersion = map['version'].toString();
 
     if (latestVersion == 'null') {
-      return;
+      return false;
     }
 
     if (!isLatestVersionHigher(appVersion, latestVersion)) {
-      return;
+      return false;
     }
+
     final releasesRequest = await http.get(Uri.parse(releasesUrl));
-
     if (releasesRequest.statusCode != 200) {
-      return;
+      return false;
     }
-
     releasesResponse =
         json.decode(releasesRequest.body) as Map<String, dynamic>;
+    return true;
   } catch (e) {
     debugPrint('Error in checkAppUpdates $e');
   }
+  return false;
 }
 
 Future<void> showAppUpdateDialog(BuildContext context) async {
