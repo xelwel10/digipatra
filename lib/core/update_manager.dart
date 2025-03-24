@@ -6,13 +6,13 @@ import 'package:simple_app/core/auto_format_text.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 const String checkUrl =
-    'https://raw.githubusercontent.com/Xelwel10/releases/main/checkBadapatraUpdate.json';
+    'https://raw.githubusercontent.com/Xelwel10/digipatra/main/checkBadapatraUpdate.json';
 const String releasesUrl =
     'https://api.github.com/repos/Xelwel10/releases/releases/latest';
 String downloadUrlKey = 'url';
 String downloadFilename = 'Badapatra.apk';
 
-String appVersion = '2.0.5';
+String appVersion = '2.0.6';
 
 late Map<String, dynamic> map;
 late String latestVersion;
