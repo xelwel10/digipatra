@@ -26,6 +26,7 @@ Future<bool> checkAppUpdates() async {
     }
 
     map = json.decode(response.body) as Map<String, dynamic>;
+    latestVersion = map['version'];
 
     if (latestVersion == 'null') {
       return false;
@@ -34,7 +35,6 @@ Future<bool> checkAppUpdates() async {
     if (!isLatestVersionHigher(appVersion, latestVersion)) {
       return false;
     }
-
     final releasesRequest = await http.get(Uri.parse(releasesUrl));
     if (releasesRequest.statusCode != 200) {
       return false;
@@ -49,6 +49,7 @@ Future<bool> checkAppUpdates() async {
 }
 
 Future<void> showAppUpdateDialog(BuildContext context) async {
+  final screenWidth = MediaQuery.sizeOf(context).width;
   await showDialog(
     context: context,
     builder: (BuildContext context) {
@@ -60,18 +61,18 @@ Future<void> showAppUpdateDialog(BuildContext context) async {
               "Update is available",
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 24,
+                fontSize: screenWidth / 15,
                 fontWeight: FontWeight.bold,
                 color: Theme.of(context).colorScheme.onPrimaryContainer,
               ),
             ),
-            const SizedBox(height: 10),
+            SizedBox(height: screenWidth / 36),
             Text(
               'V$latestVersion',
               textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 16),
+              style: TextStyle(fontSize: screenWidth / 22),
             ),
-            const SizedBox(height: 10),
+            SizedBox(height: screenWidth / 36),
             ConstrainedBox(
               constraints: BoxConstraints(
                 maxHeight: MediaQuery.sizeOf(context).height / 2.14,
@@ -94,11 +95,11 @@ Future<void> showAppUpdateDialog(BuildContext context) async {
                 child: Text(
                   "CANCEL",
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: screenWidth / 30,
                   ),
                 ),
               ),
-              SizedBox(width: 10),
+              SizedBox(width: screenWidth / 36),
               FilledButton(
                 onPressed: () {
                   getDownloadUrl(map).then(
@@ -109,7 +110,7 @@ Future<void> showAppUpdateDialog(BuildContext context) async {
                 child: Text(
                   "DOWNLOAD",
                   style: TextStyle(
-                    fontSize: 12,
+                    fontSize: screenWidth / 30,
                   ),
                 ),
               ),
