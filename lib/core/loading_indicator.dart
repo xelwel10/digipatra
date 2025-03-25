@@ -16,8 +16,8 @@ class _CustomLoadingIndicatorState extends State<CustomLoadingIndicator>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(milliseconds: 1500),
-    )..repeat();
+      duration: const Duration(milliseconds: 1200),
+    )..repeat(reverse: true);
   }
 
   @override
@@ -28,37 +28,42 @@ class _CustomLoadingIndicatorState extends State<CustomLoadingIndicator>
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: 30,
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: List.generate(5, (index) {
-          return AnimatedBuilder(
-            animation: _controller,
-            builder: (context, child) {
-              final startDelay = index * 0.1;
-              final animation = Tween<double>(begin: 0.5, end: 1.0).animate(
-                CurvedAnimation(
-                  parent: _controller,
-                  curve: Interval(
-                    startDelay,
-                    startDelay + 0.4,
-                    curve: Curves.easeInOut,
+    return RepaintBoundary(
+      child: SizedBox(
+        height: 30,
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: List.generate(5, (index) {
+            return AnimatedBuilder(
+              animation: _controller,
+              builder: (context, child) {
+                final startDelay = index * 0.1;
+                final animation = Tween<double>(begin: 0.5, end: 1.0).animate(
+                  CurvedAnimation(
+                    parent: _controller,
+                    curve: Interval(
+                      startDelay,
+                      startDelay + 0.5,
+                      curve: Curves.easeInOut,
+                    ),
                   ),
-                ),
-              );
+                );
 
-              return Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 2.0),
-                child: Container(
-                  width: 6,
-                  height: 18 * animation.value,
-                  color: Colors.blue,
-                ),
-              );
-            },
-          );
-        }),
+                return Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 2.0),
+                  child: Container(
+                    width: 6,
+                    height: 18 * animation.value,
+                    decoration: BoxDecoration(
+                      color: Colors.blue,
+                      borderRadius: BorderRadius.circular(3),
+                    ),
+                  ),
+                );
+              },
+            );
+          }),
+        ),
       ),
     );
   }

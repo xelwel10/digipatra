@@ -1,4 +1,4 @@
-- change all version name, preffered to increase by 0.0.1
+- change all version name, preffered to increase by 0.0.1 and change version code by 1
 - add changes in checkBadapatraUpdate.json body section 
 - push to github 
 
